@@ -27,7 +27,7 @@ class ArgsBase():
             parents=[parent_parser], add_help=False)
         parser.add_argument('--train_file',
                             type=str,
-                            default='data/train.tsv',
+                            default='data/news_data_final.tsv', # 원래 train.tsv이인데 바꿔줌
                             help='train file')
 
         parser.add_argument('--test_file',
